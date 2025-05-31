@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|c:\\users\\linas\\source\\repos\\check-square-api\\checksquareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|solutionrelative:checksquareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|C:\\Users\\Linas\\source\\repos\\Check-Square-API\\checksquareapi\\controllers\\checksquarecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|solutionrelative:checksquareapi\\controllers\\checksquarecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|C:\\Users\\Linas\\source\\repos\\Check-Square-API\\checksquareapi\\services\\squareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|solutionrelative:checksquareapi\\services\\squareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CheckSquareAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Program.cs",
+              "RelativeToolTip": "CheckSquareAPI\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBcAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T09:23:32.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SquareService.cs",
+              "DocumentMoniker": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Services\\SquareService.cs",
+              "RelativeDocumentMoniker": "CheckSquareAPI\\Services\\SquareService.cs",
+              "ToolTip": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Services\\SquareService.cs",
+              "RelativeToolTip": "CheckSquareAPI\\Services\\SquareService.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAnwFoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T08:52:03.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckSquareController.cs",
+              "DocumentMoniker": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Controllers\\CheckSquareController.cs",
+              "RelativeDocumentMoniker": "CheckSquareAPI\\Controllers\\CheckSquareController.cs",
+              "ToolTip": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Controllers\\CheckSquareController.cs",
+              "RelativeToolTip": "CheckSquareAPI\\Controllers\\CheckSquareController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAnwFkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T07:06:46.367Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@CheckSquareAPI_HostAddress = http://localhost:5199
+
+GET {{CheckSquareAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
