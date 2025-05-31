@@ -18,3 +18,4 @@ A .NET API to check if the given coordinates can make a square. The coordinates 
 
 ## Additional information
 An XML documentation is also generated in CehckSquareAPI.xml file.
+Unit test are also created
