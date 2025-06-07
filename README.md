@@ -8,7 +8,7 @@ A .NET API to check if the given coordinates can make a square. The coordinates 
 
 ## Intructions
 ### Post/CheckSquare
-![Post CheckSquare](<Post ChecSquare.png>)
+![Post CheckSquare](<Post CheckSquare.png>)
 ### Get/CheckSquare
 ![Get CheckSquare](<Get CheckSquare.png>)
 ### Put/CheckSquare
