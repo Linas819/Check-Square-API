@@ -71,9 +71,13 @@ namespace CheckSquareAPI.Services
         {
             if (coordinates == "")
                 return "ERROR: Initial coordinates not found";
+            Coordinate newCoordinates = new Coordinate() { X = x, Y = y };
             List<Coordinate> coordinatesList = SetCoordnatesList(coordinates);
             if (coordinatesList.Count == 0)
                 return "ERROR: Incorrect initial coordinate format";
+            Coordinate? duplicateCoordinate = coordinatesList.Where(x => x.X == newCoordinates.X && x.Y == newCoordinates.Y).FirstOrDefault();
+            if (duplicateCoordinate != null)
+                return "ERROR: Coordinates already in the list";
             coordinatesList.Add(new Coordinate() { X = x, Y = y });
             return SetSquareCoordinatesString(coordinatesList.ToArray());
         }

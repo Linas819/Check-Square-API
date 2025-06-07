@@ -37,7 +37,7 @@ namespace CheckSquareAPI.Controllers
             });
         }
         /// <summary>
-        /// Gets all possible squares from he posted coordinates
+        /// Gets all possible squares from the posted coordinates
         /// </summary>
         /// <remarks>
         /// If the posted coordinates were incorrectly formated, less than 4 were added or were never provided, 
@@ -65,6 +65,7 @@ namespace CheckSquareAPI.Controllers
         /// an appropriate messege will be shown:<br/>
         /// ERROR: Initial coordinates not found - no coordinates found in the session<br/>
         /// ERROR: Incorrect initial coordinate format - missing number or incorrect format used<br/>
+        /// ERROR: Coordinates already in the list - coordinate point already in the list
         /// </remarks>
         /// <returns>A new coordinates string with the additional coordinates</returns>
         [HttpPut]

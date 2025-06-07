@@ -66,8 +66,8 @@ namespace CheckSquareApiTest
         public void AddCoordinates()
         {
             string coordinatesString = "[(-1.5;1.5),(1.5;1.5),(1.5;-1.5),(-1.5;-1.5)]";
-            int x = 1;
-            int y = 1;
+            double x = 1;
+            double y = 1;
             string newSquareCoordinates = _squareService.AddCoordinates(coordinatesString, x, y);
             string expectedResult = "(-1.5;1.5),(1.5;1.5),(1.5;-1.5),(-1.5;-1.5),(1;1)";
             Assert.That(newSquareCoordinates, Is.EqualTo(expectedResult));
@@ -76,8 +76,8 @@ namespace CheckSquareApiTest
         public void AddCoordinatesNoInput()
         {
             string coordinatesString = "";
-            int x = 1;
-            int y = 1;
+            double x = 1;
+            double y = 1;
             string newSquareCoordinates = _squareService.AddCoordinates(coordinatesString, x, y);
             string expectedResult = "ERROR: Initial coordinates not found";
             Assert.That(newSquareCoordinates, Is.EqualTo(expectedResult));
@@ -86,18 +86,28 @@ namespace CheckSquareApiTest
         public void AddCoordinatesIncorrectInput()
         {
             string coordinatesString = "[(-1.5;1.5),(1.5;1.5),(1.5;-1.5),(-1.5;)]";
-            int x = 1;
-            int y = 1;
+            double x = 1;
+            double y = 1;
             string newSquareCoordinates = _squareService.AddCoordinates(coordinatesString, x, y);
             string expectedResult = "ERROR: Incorrect initial coordinate format";
+            Assert.That(newSquareCoordinates, Is.EqualTo(expectedResult));
+        }
+        [Test]
+        public void AddCoordinatesDuplicateInput()
+        {
+            string coordinatesString = "[(-1.5;1.5),(1.5;1.5),(1.5;-1.5),(-1.5;-1.5)]";
+            double x = 1.5;
+            double y = 1.5;
+            string newSquareCoordinates = _squareService.AddCoordinates(coordinatesString, x, y);
+            string expectedResult = "ERROR: Coordinates already in the list";
             Assert.That(newSquareCoordinates, Is.EqualTo(expectedResult));
         }
         [Test]
         public void DeleteCoordinates()
         {
             string coordinatesString = "[(-1.5;1.5),(1.5;1.5),(1.5;-1.5),(-1.5;-1.5),(1;1)]";
-            int x = 1;
-            int y = 1;
+            double x = 1;
+            double y = 1;
             string newSquareCoordinates = _squareService.DeleteCoordinates(coordinatesString, x, y);
             string expectedResult = "(-1.5;1.5),(1.5;1.5),(1.5;-1.5),(-1.5;-1.5)";
             Assert.That(newSquareCoordinates, Is.EqualTo(expectedResult));
@@ -106,8 +116,8 @@ namespace CheckSquareApiTest
         public void DeleteCoordinatesNoInput()
         {
             string coordinatesString = "";
-            int x = 1;
-            int y = 1;
+            double x = 1;
+            double y = 1;
             string newSquareCoordinates = _squareService.DeleteCoordinates(coordinatesString, x, y);
             string expectedResult = "ERROR: Initial coordinates not found";
             Assert.That(newSquareCoordinates, Is.EqualTo(expectedResult));
@@ -116,8 +126,8 @@ namespace CheckSquareApiTest
         public void DeleteCoordinatesIncorrectInput()
         {
             string coordinatesString = "[(-1.5;1.5),(1.5;1.5),(1.5;-1.5),(-1.5;-1.5),(1;)]";
-            int x = 1;
-            int y = 1;
+            double x = 1;
+            double y = 1;
             string newSquareCoordinates = _squareService.DeleteCoordinates(coordinatesString, x, y);
             string expectedResult = "ERROR: Incorrect initial coordinate format";
             Assert.That(newSquareCoordinates, Is.EqualTo(expectedResult));
@@ -126,8 +136,8 @@ namespace CheckSquareApiTest
         public void DeleteCoordinatesNotFound()
         {
             string coordinatesString = "[(-1.5;1.5),(1.5;1.5),(1.5;-1.5),(-1.5;-1.5)]";
-            int x = 1;
-            int y = 1;
+            double x = 1;
+            double y = 1;
             string newSquareCoordinates = _squareService.DeleteCoordinates(coordinatesString, x, y);
             string expectedResult = "ERROR: Coordinate not found";
             Assert.That(newSquareCoordinates, Is.EqualTo(expectedResult));

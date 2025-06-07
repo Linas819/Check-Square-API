@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|c:\\users\\linas\\source\\repos\\check-square-api\\checksquareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|solutionrelative:checksquareapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|C:\\Users\\Linas\\source\\repos\\Check-Square-API\\checksquareapi\\controllers\\checksquarecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|solutionrelative:checksquareapi\\controllers\\checksquarecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F19DFA2B-D866-4FF5-98DD-BB358BED6D40}|CheckSquareApiTest\\CheckSquareApiTest.csproj|c:\\users\\linas\\source\\repos\\check-square-api\\checksquareapitest\\squarechecktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19DFA2B-D866-4FF5-98DD-BB358BED6D40}|CheckSquareApiTest\\CheckSquareApiTest.csproj|solutionrelative:checksquareapitest\\squarechecktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|C:\\Users\\Linas\\source\\repos\\Check-Square-API\\checksquareapi\\services\\squareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|solutionrelative:checksquareapi\\services\\squareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|c:\\users\\linas\\source\\repos\\check-square-api\\checksquareapi\\controllers\\checksquarecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998E968A-E0FD-4F50-A5C6-79604D3EDC97}|CheckSquareAPI\\CheckSquareAPI.csproj|solutionrelative:checksquareapi\\controllers\\checksquarecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Program.cs",
-              "RelativeDocumentMoniker": "CheckSquareAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Program.cs",
-              "RelativeToolTip": "CheckSquareAPI\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBcAAABPAAAA",
+              "Title": "SquareCheckTest.cs",
+              "DocumentMoniker": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareApiTest\\SquareCheckTest.cs",
+              "RelativeDocumentMoniker": "CheckSquareApiTest\\SquareCheckTest.cs",
+              "ToolTip": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareApiTest\\SquareCheckTest.cs",
+              "RelativeToolTip": "CheckSquareApiTest\\SquareCheckTest.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGUAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T09:23:32.973Z",
+              "WhenOpened": "2025-06-07T18:48:56.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SquareService.cs",
               "DocumentMoniker": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Services\\SquareService.cs",
               "RelativeDocumentMoniker": "CheckSquareAPI\\Services\\SquareService.cs",
               "ToolTip": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Services\\SquareService.cs",
               "RelativeToolTip": "CheckSquareAPI\\Services\\SquareService.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAnwFoAAAAzAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAnwE8AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T08:52:03.453Z"
+              "WhenOpened": "2025-05-30T08:52:03.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CheckSquareController.cs",
               "DocumentMoniker": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Controllers\\CheckSquareController.cs",
               "RelativeDocumentMoniker": "CheckSquareAPI\\Controllers\\CheckSquareController.cs",
               "ToolTip": "C:\\Users\\Linas\\source\\repos\\Check-Square-API\\CheckSquareAPI\\Controllers\\CheckSquareController.cs",
               "RelativeToolTip": "CheckSquareAPI\\Controllers\\CheckSquareController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAnwFkAAABIAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEMAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T07:06:46.367Z"
+              "WhenOpened": "2025-05-30T07:06:46.367Z",
+              "EditorCaption": ""
             }
           ]
         }
